@@ -65,7 +65,7 @@ li {
 }
 
 /*-------------------------------------------
-Mainvisual
+メイン画像
 -------------------------------------------*/
 #mainvisual {
   margin-bottom: 80px;
@@ -82,28 +82,32 @@ About
 -------------------------------------------*/
 #about ul {
   margin-bottom: 30px;
+  text-align: center;
 }
 #about li:first-child {
   margin-bottom: 30px;
 }
 #about p {
   text-align:justify;
+  text-align: center;
 }
 
 /*-------------------------------------------
 Works
 -------------------------------------------*/
 #works ul {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* justify-content ※2個以上入れるとき */
+  display: block;
   margin-bottom: 50px;
+  text-align: center;
 }
 #works li {
-  width: 31%;
+  width: 100%;
   margin-bottom: 23px;
 }
-.deliverable
+.deliverable{
+  font-size: 1.25rem;
+}
 
 /*-------------------------------------------
 News
